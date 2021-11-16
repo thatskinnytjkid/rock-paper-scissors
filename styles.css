@@ -1,6 +1,7 @@
 body {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -17,4 +18,9 @@ button {
 .button-container {
   display: flex;
   gap: 16px;
+}
+
+.scoresheet {
+  display: flex;
+  gap: 48px;
 }
