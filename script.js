@@ -58,6 +58,7 @@ function checkScore(playerScore, computerScore){
 
 }
 
+// Rematch function & listener
 rematchButton.addEventListener('click', rematch);
 
 function rematch(){
