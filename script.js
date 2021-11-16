@@ -1,3 +1,7 @@
+const rock = document.getElementById('rock');
+const paper = document.getElementById('paper');
+const scissors = document.getElementById('scissors');
+
 //Rock Paper Scissors
 
 let options = ['Rock', 'Paper', 'Scissors'];
@@ -8,6 +12,11 @@ let computerScore = 0;
 function computerPlay(){
     let random = Math.floor(Math.random() * 3);
     return options[random].toLowerCase();
+}
+
+// Player Choice - Button Listeners
+function getPlayerChoice(e){
+    
 }
 
 //Play Round - Compare
@@ -38,4 +47,4 @@ function game(){
 }
 
 
-game();
+// game();
